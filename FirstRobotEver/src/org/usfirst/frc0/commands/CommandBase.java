@@ -16,7 +16,7 @@ public abstract class CommandBase extends Command {
 
     public static OI oi;
     // Create a single static instance of all of your subsystems
-    public static DriveTrain driveTrain = new DriveTrain(SmartDashboard.getInt("driveType"));
+    public static DriveTrain driveTrain = new DriveTrain(SmartDashboard.getInt("driveType", 1));
 
     public static void init() {
         // This MUST be here. If the OI creates Commands (which it very likely
