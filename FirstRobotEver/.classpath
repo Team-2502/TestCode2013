@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="lib/classes.jar"/>
-	<classpathentry kind="lib" path="lib/squawk_device.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/classes.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/squawk_device.jar"/>
 	<classpathentry kind="lib" path="lib/debugger_classes.jar"/>
 	<classpathentry kind="lib" path="lib/debugger-proxy_classes.jar"/>
 	<classpathentry kind="lib" path="lib/hosted-support_classes.jar"/>
