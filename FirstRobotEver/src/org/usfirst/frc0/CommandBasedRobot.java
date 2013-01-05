@@ -11,6 +11,7 @@ package org.usfirst.frc0;
 
 import org.usfirst.frc0.commands.CommandBase;
 import org.usfirst.frc0.commands.TeleopCommand;
+import org.usfirst.frc0.subsystems.DriveTrain;
 
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.command.Command;
@@ -38,7 +39,7 @@ public class CommandBasedRobot extends IterativeRobot {
 
         // Initialize all subsystems
         CommandBase.init();
-        SmartDashboard.putData("driveType", TANK_DRIVE);
+        SmartDashboard.putInt("driveType", DriveTrain.TANK_DRIVE);
     }
 
 

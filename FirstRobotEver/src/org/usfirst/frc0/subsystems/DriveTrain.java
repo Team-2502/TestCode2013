@@ -4,7 +4,6 @@ import org.usfirst.frc0.OI;
 import org.usfirst.frc0.commands.DriveWithJoystick;
 
 import edu.wpi.first.wpilibj.Jaguar;
-import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.RobotDrive;
 import edu.wpi.first.wpilibj.command.Subsystem;
 
@@ -12,7 +11,7 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 public class DriveTrain extends Subsystem {
 
 	
-	RobotDrive robotDrive;
+	private RobotDrive robotDrive;
 	private int driveType;
 	private Jaguar jaguarLeft,jaguarRight;
 	
