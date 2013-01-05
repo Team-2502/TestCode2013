@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/MLM/.eclipse/org.eclipse.platform_4.2.0_1416090908/plugins/edu.wpi.first.javadev.sunspotfrcsdk_1.0.7.1/sunspotfrcsdk/lib/WPILibJ/classes.jar"/>
-	<classpathentry kind="lib" path="C:/Users/MLM/.eclipse/org.eclipse.platform_4.2.0_1416090908/plugins/edu.wpi.first.javadev.sunspotfrcsdk_1.0.7.1/sunspotfrcsdk/lib/squawk_device.jar"/>
+	<classpathentry kind="lib" path="lib/classes.jar"/>
+	<classpathentry kind="lib" path="lib/squawk_device.jar"/>
+	<classpathentry kind="lib" path="lib/debugger_classes.jar"/>
+	<classpathentry kind="lib" path="lib/debugger-proxy_classes.jar"/>
+	<classpathentry kind="lib" path="lib/hosted-support_classes.jar"/>
+	<classpathentry kind="lib" path="lib/romizer_classes.jar"/>
+	<classpathentry kind="lib" path="lib/squawk_device_classes.jar"/>
+	<classpathentry kind="lib" path="lib/squawk.jar"/>
+	<classpathentry kind="lib" path="lib/translator_classes.jar"/>
 	<classpathentry kind="output" path="build"/>
 </classpath>
