@@ -39,6 +39,8 @@ public class CommandBasedRobot extends IterativeRobot {
 
         // Initialize all subsystems
         CommandBase.init();
+        
+        // Setup the drive type
         SmartDashboard.putInt("driveType", DriveTrain.TANK_DRIVE);
     }
 
