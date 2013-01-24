@@ -5,6 +5,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import org.usfirst.frc0.OI;
 import org.usfirst.frc0.subsystems.DriveTrain;
 import org.usfirst.frc0.subsystems.ExampleSubsystem;
+import org.usfirst.frc0.subsystems.SimpleVision;
 
 /**
  * The base for all commands. All atomic commands should subclass CommandBase.
@@ -17,6 +18,7 @@ public abstract class CommandBase extends Command {
     public static OI oi;
     // Create a single static instance of all of your subsystems
     public static DriveTrain driveTrain = new DriveTrain(SmartDashboard.getInt("driveType", 1));
+    public static SimpleVision simpleVision = new SimpleVision();
 
     public static void init() {
         // This MUST be here. If the OI creates Commands (which it very likely
